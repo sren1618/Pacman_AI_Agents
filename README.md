@@ -39,8 +39,6 @@ The offensive agent begins by eating the capsule and subsequently carrying 5 foo
 
 When the defensive foods are more than half of toal, the agent conducts patrols along the border and chases the enmeies upon detecting them. This continues until the food numbers falls below half, at which point the agent patrols around the remaining food positions and chases the enmeies when encountered.
 
-[Back to top](#table-of-contents)
-
 ## Trade-offs  
 
 ### *Advantages*  
@@ -61,7 +59,6 @@ When the defensive foods are more than half of toal, the agent conducts patrols 
 
 The goal is to model the packman game by using of STRIPS method and us ing the FF planer to solve the problems. In this method, the domain files of the offensive and defensive agent are implemented separately to describe the action of agents. By selecting of different strategies to decided the goal, the problem files are created based on it. Finally the next action will be executed based on the solution of the FF planer.
 
-[Back to top](#table-of-contents)
 
 ## Application
 
@@ -117,7 +114,6 @@ Offensive agent firstly eat the capsule and carry more than 5 food back to the n
 
 Defensive agent chases the opponent when it detects it, otherwise it check to see if the defending food has been eaten, and if it has been eaten it means that opponents have appeared at that location, and the agent will go to that location to check.When no opponents are appeared, the agent patrols the block with the most food.
 
-[Back to top](#table-of-contents)
 
 ## Trade-offs
 
