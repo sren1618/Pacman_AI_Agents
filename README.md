@@ -7,16 +7,14 @@ The purpose of this project is to implement an autonomous agent that can play th
 Here is the rules of the [PACMAN Capture the Flag game](http://ai.berkeley.edu/contest.html).
 
 # Table of Contents
-- [Governing Strategy Tree](#AI-Method-One-Heuristic-Search2)
-  * [Motivation](#motivation2)
+- [AI Method One: A* Heuristic Search](#AI-Method-One:-A*-Heuristic-Search)
+  * [Motivation](#motivation)
   * [Application](#application)
-  * [Trade-offs](#trade-offs) 
-    - [Agent Performance](#performance)
+  * [Trade-offs](#trade-offs)
     - [Advantages](#advantages)
     - [Disadvantages](#disadvantages)
-  * [Future improvements](#future-improvements)
 
-## AI Method One A* Heuristic Search
+## AI Method One: A* Heuristic Search
 
 ### Motivation  
 
@@ -138,4 +136,3 @@ Defensive agent chases the opponent when it detects it, otherwise it check to se
 * The performance of agents is more affected by strategies, and different goals chosen through different strategies can seriously affect the performance of agents.
 
 [Back to top](#table-of-contents)
-# AI Method One Heuristic Search2
