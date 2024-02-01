@@ -7,14 +7,20 @@ The purpose of this project is to implement an autonomous agent that can play th
 Here is the rules of the [PACMAN Capture the Flag game](http://ai.berkeley.edu/contest.html).
 
 # Table of Contents
-- [AI Method One: A* Heuristic Search](#AI-Method-One:-A*-Heuristic-Search)
+- [AI Method One: A* Heuristic Search](#A-Star-Heuristic-Search)
+  * [Motivation](#motivation)
+  * [Application](#application)
+  * [Trade-offs](#trade-offs)
+    - [Advantages](#advantages)
+    - [Disadvantages](#disadvantages)
+- [AI Method One: A* Heuristic Search](#PDDL-Classic-Planning)
   * [Motivation](#motivation)
   * [Application](#application)
   * [Trade-offs](#trade-offs)
     - [Advantages](#advantages)
     - [Disadvantages](#disadvantages)
 
-## AI Method One: A* Heuristic Search
+## A Star Heuristic Search
 
 ### Motivation  
 
@@ -60,9 +66,9 @@ When the defensive foods are more than half of toal, the agent conducts patrols 
 
 [Back to top](#table-of-contents)
 
-## AI Method Two: PDDL Classic Planning
+## PDDL Classic Planning
 
-### Motivation2  
+### Motivation  
 
 The goal is to model the packman game by using of STRIPS method and us ing the FF planer to solve the problems. In this method, the domain files of the offensive and defensive agent are implemented separately to describe the action of agents. By selecting of different strategies to decided the goal, the problem files are created based on it. Finally the next action will be executed based on the solution of the FF planer.
 
