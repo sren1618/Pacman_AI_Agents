@@ -8,19 +8,9 @@ Here is the rules of the [PACMAN Capture the Flag game](http://ai.berkeley.edu/c
 
 # Table of Contents
 - [AI Method One: A* Heuristic Search](#A-Star-Heuristic-Search)
-  * [Motivation](#motivation)
-  * [Application](#application)
-  * [Trade-offs](#trade-offs)
-    - [Advantages](#advantages)
-    - [Disadvantages](#disadvantages)
 - [AI Method Two: PDDL Classic Planning](#PDDL-Classic-Planning)
-  * [Motivation](#motivation)
-  * [Application](#application)
-  * [Trade-offs](#trade-offs)
-    - [Advantages](#advantages)
-    - [Disadvantages](#disadvantages)
 
-# A Star Heuristic Search
+# AI Method One: A* Heuristic Search
 
 ## Motivation  
 
@@ -42,7 +32,6 @@ The defensive agent's heuristic function is the Manhattan distance between the i
 <img src="imgs/2.png" alt="Alt text" title="a title" style="zoom:50%;" />
 
 The offensive agent begins by eating the capsule and subsequently carrying 5 foods to the closest boundary. It continues this process until all capsules have been consumed, after that it carries the 3 closest of foods to the boundary.
-
 
 #### 2.2 Defensive Strategies
 
@@ -66,7 +55,7 @@ When the defensive foods are more than half of toal, the agent conducts patrols 
 
 [Back to top](#table-of-contents)
 
-# PDDL Classic Planning
+# AI Method Two: PDDL Classic Planning
 
 ## Motivation  
 
