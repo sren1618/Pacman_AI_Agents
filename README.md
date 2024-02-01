@@ -13,7 +13,7 @@ Here is the rules of the [PACMAN Capture the Flag game](http://ai.berkeley.edu/c
   * [Trade-offs](#trade-offs)
     - [Advantages](#advantages)
     - [Disadvantages](#disadvantages)
-- [AI Method One: A* Heuristic Search](#PDDL-Classic-Planning)
+- [AI Method Two: PDDL Classic Planning](#PDDL-Classic-Planning)
   * [Motivation](#motivation)
   * [Application](#application)
   * [Trade-offs](#trade-offs)
